@@ -1,0 +1,41 @@
+body {
+    background-color: #f3f2ef;
+}
+
+.login-box {
+    max-width: 400px;
+    margin: 50px auto;
+}
+
+.logo {
+    color: #0a66c2;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.card {
+    border: none;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.form-control {
+    height: 50px;
+    border: 1px solid #777;
+}
+
+.btn-primary {
+    background-color: #0a66c2;
+    border: none;
+    border-radius: 25px;
+    height: 50px;
+    font-weight: bold;
+}
+
+.btn-primary:hover {
+    background-color: #004182;
+}
+
+a {
+    color: #0a66c2;
+}
