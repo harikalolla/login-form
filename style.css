@@ -2,33 +2,70 @@ body {
     background-color: #f3f2ef;
 }
 
-.login-box {
-    max-width: 400px;
-    margin: 50px auto;
+/* Main row */
+.row {
+    min-height: 550px;
+    margin-top: 50px;
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
 }
 
-.logo {
+/* Left section */
+.section1 {
+    background-color: #e8f3ff;
+    padding: 40px;
+    text-align: center;
+}
+
+.section1 h2 {
     color: #0a66c2;
-    font-size: 32px;
     font-weight: bold;
 }
 
-.card {
-    border: none;
-    border-radius: 8px;
-    padding: 10px;
+.section1 p {
+    color: #555;
+    margin-top: 15px;
 }
 
+/* LinkedIn image */
+.linkedin-image {
+    width: 100px;
+    margin-top: 25px;
+}
+
+/* Right section */
+.section2 {
+    padding: 60px;
+    background-color: white;
+}
+
+.section2 h2 {
+    color: #222;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+/* Input boxes */
 .form-control {
     height: 50px;
     border: 1px solid #777;
+    border-radius: 5px;
 }
 
+/* Input focus */
+.form-control:focus {
+    border-color: #0a66c2;
+    box-shadow: none;
+}
+
+/* Button */
 .btn-primary {
     background-color: #0a66c2;
     border: none;
-    border-radius: 25px;
     height: 50px;
+    border-radius: 25px;
     font-weight: bold;
 }
 
@@ -36,6 +73,18 @@ body {
     background-color: #004182;
 }
 
+/* Links */
 a {
     color: #0a66c2;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Forgot password */
+.forgot {
+    font-size: 14px;
 }
